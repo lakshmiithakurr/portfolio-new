@@ -1,0 +1,166 @@
+/* *{
+    border: 1px solid;
+} */
+
+.b1{
+    background-image: url(../Estore/images/h1_hero.jpg);
+    background-size: 100%;
+}
+
+.f1{
+    font-family: 'Beth Ellen', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'EB Garamond', serif;
+font-family: 'Julee', cursive;
+font-family: 'Space Grotesk', sans-serif;
+font-family: 'Yellowtail', cursive;
+}
+.f2{
+    font-family: 'Girassol', cursive;
+}
+.f3{
+    font-family: 'Metal', cursive;
+}
+.c1{
+    color: deeppink;
+}
+.bg1{
+    background-image: url(../Estore/images/card.png);
+    
+}
+.bg3{
+    background-image: url(../Estore/images/latest-offer.png);
+    height:350px;
+}
+
+.shadow1:hover {
+    box-shadow: 0px 0px 25px rgb(11, 170, 219) !important;
+}
+.shadow2:hover {
+    background-color: rgba(2, 176, 245, 0.422);
+}
+
+
+
+
+
+
+.hovereffect1 {
+    overflow: hidden;
+    text-align: center;
+    cursor: default;
+}
+.hovereffect1 p.icon-links a {
+    float: right;
+    color: #0d0e0d;
+    font-size: 1.8em;
+}
+.hovereffect1:hover p.icon-links a:hover,
+.hovereffect1:hover p.icon-links a:focus {
+    color: #252d31;
+}
+.hovereffect1 h2,
+.hovereffect1 p.icon-links a {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,200%,0);
+    transform: translate3d(0,200%,0);
+    visibility: visible;
+}
+.hovereffect1 p.icon-links a span:before {
+   
+    padding: 8px 10px;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.hovereffect1:hover .overlay,
+.hovereffect1:hover h2,
+.hovereffect1:hover p.icon-links a {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+.hovereffect1:hover p.icon-links a:nth-child(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.hovereffect1:hover p.icon-links a:nth-child(2) {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+.hovereffect1:hover p.icon-links a:first-child {
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+
+
+
+.hovereffect {
+    width:100%;
+    height:100%;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-align:center;
+    cursor:default;
+    }
+
+
+    .hovereffect img {
+        display: block;
+        position: relative;
+        -webkit-transition: all .4s linear;
+        transition: all .4s linear;
+    }
+    
+    .hovereffect a.info:hover {
+        box-shadow: 0 0 5px #fff;
+    }
+    
+    .hovereffect:hover img {
+        -ms-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+    
+    .hovereffect:hover .overlay {
+        opacity: 1;
+        filter: alpha(opacity=100);
+    }
+    
+    .hovereffect:hover h2,
+    .hovereffect:hover a.info {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -ms-transform: translatey(0);
+        -webkit-transform: translatey(0);
+        transform: translatey(0);
+    }
+    
+    .hovereffect:hover a.info {
+        -webkit-transition-delay: .2s;
+        transition-delay: .2s;
+    }
+
+
+
+
+
+@media only screen and (min-width: 320px){
+.hero{
+    display: none;
+}
+
+
+}
+@media only screen and (min-width: 768px){
+    .hero{
+        display: block;
+    }
+    .m1{
+        top: 100px;
+    }
+   
+}

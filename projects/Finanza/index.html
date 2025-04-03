@@ -1,0 +1,598 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="icon" href="../Finanza/images/bank_icon_129525.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css">
+ <link rel="stylesheet" href="../css/owl.theme.default.min.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+
+
+    <div class="row  p-2">
+      <div class="d-none  d-lg-block col-3">
+        <i class="fas fa-map-marker-alt text-primary"><span class="text-dark">Street, New York, USA</span> </i>
+      </div>
+      <div class="d-none  d-lg-block col-2">
+        <i class="far fa-clock text-primary"><span class="text-dark">9.00 am - 9.00 pm</span></i>
+      </div>
+      <div class="d-none  d-lg-block col-2 offset-3">
+        <i class="far fa-envelope text-primary"><span class="text-dark">@example.com</span></i>
+      </div>
+
+      <div class="d-none  d-lg-block col-2 ">
+        <i class="fas fa-phone-alt text-primary"><span class="text-dark">+012 345 6789</span></i>
+      </div>
+
+    </div>
+
+
+    <div class="row">
+     <div class="col-12 bg-light">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-primary  " href="#">
+          <h5 class="display-5 fw-bold">Finanza</h5>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-bold" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-bold" href="#">About</a>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link fw-bold" href="#">services</a>
+            </li>
+            <li class="nav-item dropdown pe-3">
+              <a class="nav-link dropdown-toggle fw-bold" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> Pages</a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            </li>
+            <li class="nav-item pe-3">
+              <a class="nav-link  fw-bold" href="#">Contact</a>
+            </li>
+          </ul>
+          <i class="fab fa-facebook pe-3 text-primary"></i>
+          <i class="fab fa-twitter pe-3 text-primary"></i>
+          <i class="fab fa-linkedin-in pe-3 text-primary"></i>
+        </div>
+      </div>
+    </nav>
+    </div>
+    
+    </div>
+   
+
+
+    <div class="row">
+    <div class="col-12 p-0">
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="../Finanza/images/carousel-1.jpg" class="d-block w-100" alt="image not found">
+          <div id="w1" class="carousel-caption  d-md-block mb-md-5" data-aos="fade-down" >
+            <input class="text-primary p-md-2 "  type="button" value="Welcome to Finanza">
+            <h5 id="font1" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500"  class="display-2 fw-bold " >Your Financial Status Is Our Goal</h5>
+           <input class="bg-primary text-light p-md-3 rounded-4" type="submit" value="Explore More">
+          </div>
+        </div>
+        <div id="w2" class="carousel-item" data-bs-interval="2000">
+          <img src="../Finanza/images/carousel-2.jpg" class="d-block w-100" alt="image not found">
+          <div class="carousel-caption  d-md-block mb-md-5">
+            <input class="text-primary  p-md-2 " type="button" value="Welcome to Finanza">
+            <h5 id="font2" class="display-2 fw-bold">True Financial Support For You</h5>
+            <input class="bg-primary text-light p-md-3 rounded-4" type="submit" value="Explore More">
+          </div>
+        </div> 
+      </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+    
+    </div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-lg-6 d-flex align-items-stretch">
+          <img class="img fluid rounded mt-5 w-100 " src="../Finanza/images/about.jpg" alt="image  not found">
+        </div>
+        <div class="col-12  col-lg-6 mt-5">
+          <input class="bg-light mt-5" type="button" value="About Us">
+          <h5 class="display-5 fw-bold text-dark mt-4">We Help Our Clients To Grow Their Business </h5>
+          <p class="mt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos.
+            Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet </p>
+          <div class="border border rounded-2 p-5 mt-5">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane"
+                  type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Story</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane"
+                  type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Mission</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane"
+                  type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Vision</button>
+              </li>
+
+            </ul>
+            <div class="tab-content " id="myTabContent">
+              <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                tabindex="0">
+
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos
+                labore.
+
+                Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et
+                sit
+              </div>
+              <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                tabindex="0">
+
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos
+                labore.
+
+                Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et
+                sit
+              </div>
+              <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                tabindex="0">
+
+                Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos
+                labore.
+
+                Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et
+                sit
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500" class="row border border rounded p-4 m-5 ">
+      <div class="col-12 col-lg-3 offset-1">
+        <h3 class="fw-bold"> <i class="fas fa-times-circle text-primary me-2"></i>No Hidden Cost</h3>
+        <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+      </div>
+      <!-- <div class="vr"></div> -->
+      <div class="col-12 col-lg-3 offset-1">
+        <h3 class="fw-bold"><i class="fas fa-users text-primary me-2"></i>Dedicated Team</h3>
+        <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+      </div>
+      <!-- <div class="vr"></div> -->
+      <div class="col-12 col-lg-3 offset-1">
+        <h3 class="fw-bold"> <i class="fas fa-phone-alt text-primary me-2"></i>24/7 Available</h3>
+        <p>Clita erat ipsum lorem sit sed stet duo justo</p>
+      </div>
+    </div>
+    <div class="row pt-2 w-100">
+      <div class="col-12 col-lg-6  pt-5 ">
+        <input class="bg-light text-primary" type="button" value="Why Choosing Us!">
+        <h5 class="display-5 fw-bold">Few Reasons Why People Choosing Us!</h5>
+        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et
+          lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+        <input class="p-3 bg-primary text-light" type="button" value="Explore More">
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-check text-primary"></i>
+                <h5 class="card-title fw-bold">Fast Executions</h5>
+                <p class="card-text">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                <a href="#" class="text-primary">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-5  mt-5">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-check text-primary "></i>
+                <h5 class="card-title fw-bold">Financial Secure</h5>
+                <p class="card-text">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet</p>
+                <a href="#" class=" text-primary">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 ">
+            <div class="card">
+              <div class="card-body">
+                <i class="fas fa-check text-primary "></i>
+                <h5 class="card-title fw-bold">Guide & Support</h5>
+                <p class="card-text">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet </p>
+                <a href="#" class="text-primary">Read More<i class="fas fa-arrow-right ms-2"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div id="bg1" class="row ps-5  ">
+      <div class="col-12 col-md-6 col-lg-3 display-5 fw-bold text-light "><i class="fas fa-users p-4"> </i>
+        <p class="counter">1234</p>
+        <p class="fs-5">Happy Clients</p>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 display-5 fw-bold text-light"><i class="fas fa-check p-4"></i>
+        <p class="counter">1134</p>
+        <p class="fs-5">Projects Completed</p>
+      </div>
+      <div class="col-12 col-md-6  col-lg-3 display-5 fw-bold text-light"><i class="fas fa-users-cog p-4 "></i>
+        <p class="counter">1334</p>
+        <p class="fs-5">Dedicated Staff</p>
+      </div>
+      <div class="col-12 col-md-6  col-lg-3 display-5 fw-bold text-light"><i class="fas fa-award p-4"></i>
+        <p class="counter">1034</p>
+        <p class="fs-5">Awards Achieved</p>
+      </div>
+    </div>
+
+    <div class="col-6 offset-3 mt-5">
+      <input class="col-8 offset-2 text-primary" type="button" value="Our Services">
+      <h5 class=" display-4 fw-bold">Awesome Financial Services For Business</h5>
+    </div>
+
+    <div class="row w-100">
+      <div class="col-12 col-md-12 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="border border-rounded p-4 mt-5"> <i class="fas fa-bars me-2 text-primary"></i>Financial Planing
+            </h5>
+            <h5 class="border border-rounded p-4"> <i class="fas fa-bars me-2 text-primary"></i>Cash investment</h5>
+            <h5 class="border border-rounded p-4 "> <i class="fas fa-bars me-2 text-primary"></i>Financial consoultancy
+            </h5>
+            <h5 class="border border-rounded p-4 "> <i class="fas fa-bars me-2 text-primary"></i>Business Loane</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body  hovereffect">
+            <img class="w-100 border border-rounded" src="../Finanza/images/service-1.jpg" alt="image not found">
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title fw-bold">25 Years Of Experience In Financial Support</h3>
+            <p class="card-text mt-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam
+              et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo erat amet.</p>
+            <p><i class="fas fa-check text-primary me-3"></i>Secured Loans</p>
+            <p><i class="fas fa-check text-primary me-3"></i>Credit Facilities</p>
+            <p><i class="fas fa-check text-primary me-3"></i>Cash Advanced</p>
+            <a href="#" class="btn btn-primary mt-3">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="bg2" class="row position-relative">
+    </div>
+    <div class="row z-index-2  ">
+      <div  id="over1"  class="col-12 col-md-8 offset-md-2" >
+        <div class="card " data-aos="fade-up"
+        data-aos-duration="3000">
+          <div class="card-body">
+            <input class="offset-4 text-primary" type="button" value="Get In Touch">
+            <h5 class="display-4 fw-bold offset-lg-1">Request A Call-Back</h5>
+            <input class="col-12 m-2 p-3 col-md-5 m-md-4" type="text" placeholder="Your Name">
+            <input class="col-12 m-2 p-3 col-md-5" type="text" placeholder="Your Email">
+            <input class="col-12 m-2 p-3 col-md-5 m-md-4" type="text" placeholder="Your Contact">
+            <input class="col-12 m-2 p-3 col-md-5" type="text" placeholder="Subject">
+            <input class="col-12 m-2 p-3 col-md-11 m-md-4" type="text area" placeholder="massege">
+            <input class="col-12 m-2 p-3 col-md-11 m-md-4 text-light bg-primary" type="submit" value=" submit">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-6 offset-3 mt-5">
+      <input class="col-7  col-md-4 offset-4 text-primary" type="button" value="Our Project">
+      <h5 class="display-4  fw-bold">We Have Completed Latest Projects
+      </h5>
+    </div>
+
+    
+    <div class="row w-100 ms-1 g-5" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+    <div class="col-12">
+      <div class="owl-carousel owl-theme">
+      <div class="">
+        <div class="card h-100 hovereffect">
+          <img src="../Finanza/images/service-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h3 class="fw-bold">Financial Planing</h3>
+           
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="card h-100 hovereffect">
+          <img src="../Finanza/images/service-2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h3 class="fw-bold">Cash investment</h3>
+           
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="card h-100 hovereffect">
+          <img src="../Finanza/images/service-3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h3 class="fw-bold">Financial consoultncy</h3>
+           
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="card h-100 hovereffect">
+          <img src="../Finanza/images/service-4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+              <h3 class="fw-bold">Exclusive Team</h3>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+    <div class="col-6 offset-3 mt-5">
+      <input class="col-7  col-md-4 offset-4 text-primary" type="button" value="Our Team">
+      <h5 class=" offset-2 display-4  fw-bold">Exclusive Team </h5>
+    </div>
+    <div class="row  row-cols-1 row-cols-md-3 g-0 " data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="col-12 col-md-4 p-5 ">
+        <div class="card h-100">
+          <h5 class="fw-bold">Kate Winslet</h5>
+          <img src="../Finanza/images/team-1.jpg" alt="image not found">
+          <div class="row ps-4 ps-md-2 ps-lg-5">
+            <i class="fab fa-facebook text-primary fw-1 display-6  col-4  "></i>
+            <i class="fab fa-twitter text-primary fw-1 display-6 col-4"></i>
+            <i class="fab fa-instagram text-primary fw-1 display-6 col-4"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-5">
+        <div class="card h-100">
+          <h5 class="fw-bold">Jac Jacson</h5>
+          <img src="../Finanza/images/team-2.jpg" alt="image not found">
+          <div class="row ps-4 ps-md-2 ps-lg-5">
+            <i class="fab fa-facebook text-primary fw-1 display-6  col-4"></i>
+            <i class="fab fa-twitter text-primary fw-1 display-6 col-4"></i>
+            <i class="fab fa-instagram text-primary fw-1 display-6 col-4"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 p-5">
+        <div class="card h-100">
+          <h5 class="fw-bold">Doris Jordan</h5>
+          <img src="../Finanza/images/team-3.jpg" alt="image not found">
+          <div class="row ps-4 ps-md-2 ps-lg-5">
+            <i class="fab fa-facebook text-primary fw-1 display-6  col-4"></i>
+            <i class="fab fa-twitter text-primary fw-1 display-6 col-4"></i>
+            <i class="fab fa-instagram text-primary fw-1 display-6 col-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-12  mt-5">
+      <input class="col-7 offset-3 col-md-2 offset-md-5   text-primary" type="button" value="Testimonial">
+      <h5 class="col-12 col-md-6 offset-md-3 p-md-2 col-lg-6 offset-lg-4 p-lg-3 display-6  fw-bold">What Our Clients
+        Say! </h5>
+    </div>
+
+    <div class="row col-12   g-1" data-aos="fade-up"
+    data-aos-duration="3000">
+      <div class="col-12 col-md-6 col-lg-3  ">
+        <div class="card border-0 h-100">
+          <div class="card-body ">
+          <p class="text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <img src="../Finanza/images/testimonial-1.jpg" class="offset-4" alt="...">
+          
+            <h5 class="card-title text-center fw-bold">Client Name</h5>
+           <p class="text-center">Profession</p>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col-12 col-md-6 col-lg-3  ">
+          <div class="card border-0 h-100">
+            <div class="card-body ">
+            <p class="text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img src="../Finanza/images/testimonial-2.jpg" class="offset-4" alt="...">
+            
+              <h5 class="card-title text-center fw-bold">Client Name</h5>
+             <p class="text-center">Profession</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 ">
+          <div class="card border-0 h-100">
+            <div class="card-body ">
+            <p class="text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img src="../Finanza/images/testimonial-3.jpg" class="offset-4" alt="...">
+            
+              <h5 class="card-title text-center fw-bold">Client Name</h5>
+             <p class="text-center">Profession</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 ">
+          <div class="card border-0 h-100">
+            <div class="card-body ">
+            <p class="text-center">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <img src="../Finanza/images/testimonial-4.jpg" class="offset-4" alt="...">
+            
+              <h5 class="card-title text-center fw-bold">Client Name</h5>
+             <p class="text-center">Profession</p>
+            </div>
+          </div>
+        </div>
+           
+    </div>
+
+
+
+
+
+  <div>
+  <div class="row bg-primary text-light  ">
+    <div class="col-12 col-md-5 m-md-4 col-lg-2">
+      <div class=" col-11  offset-1">
+        <h3 class="fw-bold m-2">Our Office</h3>
+      </div>
+      <div class="row">
+        <i class="fas fa-map-marker-alt col-1  offset-1"></i>
+        <p class="col-8">123 Street, New York, USA</p>
+      </div>
+      <div class="row">
+        <i class="fas fa-phone-alt col-1 offset-1"></i>
+        <p class="col-8">+012 345 67890</p>
+      </div>
+      <div class="row">
+        <i class="fas fa-envelope col-1 offset-1"></i>
+        <p class="col-8">info@example.com</p>
+      </div>
+      <div class="row offset-1 ">
+        <i class="fab fa-twitter   col-1 "></i>
+        <i class="fab fa-facebook  col-1 "></i>
+        <i class="fab fa-youtube  col-1 "></i>
+        <i class="fab fa-linkedin-in  col-1 "></i>
+      </div>
+    </div>
+    <div class="col-11 col-md-5 col-lg-2 offset-1">
+      <h3 class="fw-bold m-4">Services</h3>
+      <p><a>> Financial planning</a></p>
+      <p><a>> Cash investment</a></p>
+      <p><a>> Financial consoultancy</a></p>
+      <p><a>> Business Loans</a></p>
+      <p><a>> Business Anyalatics</a></p>
+    </div>
+    <div class="col-11 col-md-5 col-lg-2 offset-1 ">
+      <h3 class="fw-bold m-3">Quike links</h3>
+      <p><a>> About us</a></p>
+      <p><a>> Contact us</a></p>
+      <p><a>> Our sirvices</a></p>
+      <p><a>> Terms & conditon</a></p>
+      <p><a>> Support</a></p>
+    </div>
+    <div class="col-11 col-md-5 col-lg-2 offset-1">
+      <h3 class="fw-bold m-3">Newsletter</h3>
+      <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+      <input class="col-6" type="text" placeholder="your email">
+      <input class="col-4" type="submit" value="sing in">
+    </div>
+  </div>
+
+  <div class="row  p-3 bg-dark text-light">
+    <div class="col-12 col-md-6">
+      Your Site Name, All Right Reserved.
+    </div>
+    <div class="col-12 col-md-6">
+      Designed By HTML Codex Distributed By ThemeWagon
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+ <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+ <script src="../js/owl.carousel.js"></script>
+ <script>$('.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  responsiveClass:true,
+  autoplay:true,
+  autoplayTime:1000,
+  responsive:{
+      0:{
+          items:1,
+          nav:true
+      },
+      320:{
+          items:1,
+          nav:false
+      },
+      768:{
+          items:2,
+          nav:true,
+         
+      },
+      992:{
+          items:3,
+          nav:true,
+         
+      }
+  }
+})</script>
+<script src="../js/jquery.counterup.min.js"></script>
+
+<script src="../js/jquery.waypoints.min.js"></script>
+<script>$('.counter').counterUp({
+  delay: 15,
+  time: 2000
+});</script>
+</body>
+
+</html>
